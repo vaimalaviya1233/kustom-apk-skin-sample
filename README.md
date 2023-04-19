@@ -11,6 +11,7 @@ In order to be found inside the app please use the followings keywords in Skin T
 * Use **KLWP** for [Kustom Wallpaper](https://play.google.com/store/apps/details?id=org.kustom.wallpaper) skins
 * Use **KWGT** for [Kustom Widget](https://play.google.com/store/apps/details?id=org.kustom.widget) skins
 * Use **KLCK** for [Kustom Lockscreen](https://play.google.com/store/apps/details?id=org.kustom.lockscreen) skins
+* Use **KWCH** for [Kustom Watch](https://play.google.com/store/apps/details?id=org.kustom.watchface) skins
 * Use **Kustom Komponents** for Kustom Komponents Pack
 
 # Create skin using Android Studio 

@@ -1,0 +1,25 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.4.2'
+    }
+}
+
+allprojects {
+    allprojects {
+        repositories {
+            mavenLocal()
+            google()
+            mavenCentral()
+        }
+    }
+}
+
+ext {
+    buildToolsVersion = "30.0.2"
+    compileSdkVersion = 33
+    targetSdkVersion = 33
+}

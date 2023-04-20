@@ -13,9 +13,9 @@ dependencies {
         implementation(project(":preset"))
         implementation(project(":dashboard"))
     } else {
-        implementation("org.bitbucket.frankmonza:kustomapi:2.0")
-        implementation("org.bitbucket.frankmonza:kustompreset:2.0")
-        implementation("org.bitbucket.frankmonza:kustomdashboard:2.0")
+        implementation("org.bitbucket.frankmonza:kustomapi:20")
+        implementation("org.bitbucket.frankmonza:kustompreset:20")
+        implementation("org.bitbucket.frankmonza:kustomdashboard:20")
     }
     implementation("com.github.bumptech.glide:glide:4.15.1")
     annotationProcessor("com.github.bumptech.glide:compiler:4.15.1")

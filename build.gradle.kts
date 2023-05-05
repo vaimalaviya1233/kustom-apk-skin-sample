@@ -9,8 +9,6 @@ buildscript {
     }
 }
 
-extra["libChannel"] = "official"
-
 allprojects {
     allprojects {
         repositories {

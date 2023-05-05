@@ -14,7 +14,7 @@
     <string name="kustom_dashboard_title">@string/kustom_pack_title</string>
 
     <!-- Decides Weather Dark Or Light Theme Should Be Used -->
-    <bool name="kustom_dashboard_light_theme">true</bool>
+    <bool name="kustom_dashboard_light_theme">false</bool>
 
     <!--
     Dark Theme Colors Change These If Dark Theme Is Enabled
@@ -25,11 +25,11 @@
     <!-- Toolbar and preset card background color -->
     <color name="kustom_dashboard_dark_primary_dark">#222222</color>
     <!-- Main background for the app -->
-    <color name="kustom_dashboard_dark_primary">#444444</color>
+    <color name="kustom_dashboard_dark_primary">#333333</color>
     <!-- Text used in toolbar and cards title -->
-    <color name="kustom_dashboard_dark_primary_text">#F0F0F0</color>
+    <color name="kustom_dashboard_dark_primary_text">#FAFAFA</color>
     <!-- Text used in dialog text -->
-    <color name="kustom_dashboard_dark_secondary_text">#D0D0D0</color>
+    <color name="kustom_dashboard_dark_secondary_text">#EDEDED</color>
 
     <!--
     Light Theme Colors Change These If Light Theme Is Enabled
@@ -65,9 +65,12 @@
     URL to JSON file containing a map of wallpapers if enabled
     Format info can be found at https://kustom.rocks/apkmaker/walls/format
     Example https://kustom.rocks/apkmaker/walls
+    This file can also be LOCAL, inside assets folder, or remote as an HTTP URL
+    When local just use the file name relative to assets, so if the file is in assets/walls.json
+    just use walls.json
     -->
     <!--suppress CheckTagEmptyBody -->
-    <string name="kustom_dashboard_walls_url" formatted="false">https://kustom.rocks/apkmaker/walls</string>
+    <string name="kustom_dashboard_walls_url" formatted="false">ttps://kustom.rocks/apkmaker/walls</string>
 
     <!--
     Translucent background colors used for wallpaper preview background and title

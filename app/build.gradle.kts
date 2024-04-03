@@ -8,7 +8,7 @@ plugins {
 dependencies {
     implementation("org.bitbucket.frankmonza:kustomapi:21")
     implementation("org.bitbucket.frankmonza:kustompreset:22")
-    implementation("org.bitbucket.frankmonza:kustomdashboard:23")
+    implementation("org.bitbucket.frankmonza:kustomdashboard:24")
     implementation("com.github.bumptech.glide:glide:4.16.0")
     annotationProcessor("com.github.bumptech.glide:compiler:4.16.0")
 }

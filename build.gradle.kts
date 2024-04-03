@@ -4,8 +4,8 @@ buildscript {
         google()
     }
     dependencies {
-        classpath("com.android.tools.build:gradle:7.4.2")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.20")
+        classpath("com.android.tools.build:gradle:8.3.1")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.23")
     }
 }
 
@@ -16,9 +16,9 @@ allprojects {
             google()
         }
         ext {
-            set("buildToolsVersion", "33.0.2")
-            set("compileSdkVersion", 33)
-            set("targetSdkVersion", 33)
+            set("buildToolsVersion", "34.0.0")
+            set("compileSdkVersion", 34)
+            set("targetSdkVersion", 34)
         }
     }
 }

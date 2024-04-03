@@ -6,11 +6,11 @@ plugins {
 }
 
 dependencies {
-    implementation("org.bitbucket.frankmonza:kustomapi:20")
-    implementation("org.bitbucket.frankmonza:kustompreset:21")
-    implementation("org.bitbucket.frankmonza:kustomdashboard:21")
-    implementation("com.github.bumptech.glide:glide:4.15.1")
-    annotationProcessor("com.github.bumptech.glide:compiler:4.15.1")
+    implementation("org.bitbucket.frankmonza:kustomapi:21")
+    implementation("org.bitbucket.frankmonza:kustompreset:22")
+    implementation("org.bitbucket.frankmonza:kustomdashboard:23")
+    implementation("com.github.bumptech.glide:glide:4.16.0")
+    annotationProcessor("com.github.bumptech.glide:compiler:4.16.0")
 }
 
 android {
@@ -30,7 +30,7 @@ android {
         versionCode = 1
         versionName = "1"
 
-        minSdk = 23
+        minSdk = 26
         targetSdk = rootProject.ext.get("targetSdkVersion") as Int
     }
 
@@ -44,10 +44,10 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
         kotlinOptions {
-            jvmTarget = "1.8"
+            jvmTarget = JavaVersion.VERSION_17.toString()
         }
     }
 
